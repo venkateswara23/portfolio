@@ -1,0 +1,527 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0d1117;
+color:#ffffff;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+section{
+padding:80px 0;
+}
+
+a{
+text-decoration:none;
+}
+
+img{
+max-width:100%;
+display:block;
+}
+
+.section-heading{
+text-align:center;
+margin-bottom:60px;
+}
+
+.section-heading h2{
+font-size:40px;
+font-weight:bold;
+color:#ffc107;
+margin-bottom:10px;
+}
+
+.section-heading p{
+color:#cccccc;
+font-size:18px;
+}
+
+.navbar{
+background:#111827;
+padding:15px 0;
+transition:.4s;
+box-shadow:0 2px 10px rgba(0,0,0,.4);
+}
+
+.navbar-brand{
+font-size:28px;
+font-weight:bold;
+color:white !important;
+}
+
+.yellow{
+color:#ffc107;
+}
+
+.nav-link{
+color:white !important;
+font-size:17px;
+margin-left:15px;
+transition:.3s;
+}
+
+.nav-link:hover{
+color:#ffc107 !important;
+}
+
+.theme-btn{
+margin-left:20px;
+font-size:22px;
+color:#ffc107;
+cursor:pointer;
+}
+
+.navbar-toggler{
+background:#ffc107;
+}
+
+.hero{
+padding-top:150px;
+padding-bottom:100px;
+background:#0d1117;
+}
+
+.hero-text h5{
+font-size:24px;
+color:#ffc107;
+margin-bottom:20px;
+}
+
+.hero-text h1{
+font-size:60px;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+.hero-text h1 span{
+color:#ffc107;
+}
+
+.hero-text h2{
+font-size:28px;
+margin-bottom:20px;
+color:#dddddd;
+}
+
+.hero-text p{
+font-size:18px;
+color:#cccccc;
+margin-bottom:30px;
+}
+
+.profile-img{
+width:380px;
+height:380px;
+object-fit:cover;
+border-radius:50%;
+border:8px solid #ffc107;
+box-shadow:0 0 40px rgba(255,193,7,.4);
+margin:auto;
+}
+
+.social{
+margin-bottom:30px;
+}
+
+.social a{
+font-size:28px;
+margin-right:15px;
+color:white;
+transition:.3s;
+}
+
+.social a:hover{
+color:#ffc107;
+}
+
+.resume-btn{
+display:inline-block;
+padding:12px 35px;
+background:#ffc107;
+color:black;
+font-weight:bold;
+border-radius:30px;
+transition:.3s;
+}
+
+.resume-btn:hover{
+background:white;
+color:black;
+}
+
+/* ================= INFORMATION ================= */
+
+.information{
+background:#161b22;
+}
+
+.info-box{
+background:#1f2937;
+padding:35px 25px;
+border-radius:15px;
+text-align:center;
+margin-bottom:30px;
+transition:0.4s;
+border:1px solid transparent;
+height:100%;
+}
+
+.info-box:hover{
+transform:translateY(-10px);
+border-color:#ffc107;
+box-shadow:0 10px 25px rgba(255,193,7,0.2);
+}
+
+.info-box i{
+font-size:45px;
+color:#ffc107;
+margin-bottom:20px;
+}
+
+.info-box h4{
+font-size:22px;
+margin-bottom:10px;
+font-weight:600;
+color:#ffffff;
+}
+
+.info-box p{
+font-size:16px;
+color:#cccccc;
+margin:0;
+}
+
+/* ================= ABOUT ================= */
+
+.about{
+background:#0d1117;
+}
+
+.about h2{
+font-size:42px;
+font-weight:bold;
+margin-bottom:15px;
+color:#ffc107;
+}
+
+.line{
+width:80px;
+height:4px;
+background:#ffc107;
+margin-bottom:25px;
+border-radius:10px;
+}
+
+.about p{
+font-size:18px;
+color:#cccccc;
+text-align:justify;
+margin-bottom:20px;
+}
+
+.about-card{
+background:#1f2937;
+padding:40px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.4);
+}
+
+.about-card i{
+font-size:45px;
+color:#ffc107;
+margin-bottom:15px;
+}
+
+.about-card h4{
+font-size:18px;
+margin-bottom:10px;
+}
+
+.about-card h2{
+font-size:28px;
+color:#ffffff;
+}
+
+/* ================= SKILLS ================= */
+
+.skills{
+background:#161b22;
+}
+
+.skill-box{
+background:#1f2937;
+padding:30px;
+border-radius:15px;
+margin-bottom:30px;
+text-align:center;
+transition:.4s;
+height:100%;
+}
+
+.skill-box:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 30px rgba(255,193,7,.2);
+}
+
+.skill-box i{
+font-size:50px;
+color:#ffc107;
+margin-bottom:20px;
+}
+
+.skill-box h4{
+font-size:24px;
+margin-bottom:15px;
+}
+
+.skill-box p{
+color:#cccccc;
+font-size:16px;
+}
+
+/* ================= PROJECTS ================= */
+
+.projects{
+background:#0d1117;
+}
+
+.project-card{
+background:#1f2937;
+padding:30px;
+border-radius:15px;
+text-align:center;
+transition:0.4s;
+height:100%;
+box-shadow:0 5px 20px rgba(0,0,0,.3);
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 30px rgba(255,193,7,.25);
+}
+
+.project-icon{
+width:80px;
+height:80px;
+background:#ffc107;
+color:#000;
+font-size:35px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:0 auto 20px;
+}
+
+.project-card h3{
+font-size:24px;
+margin-bottom:15px;
+color:#ffffff;
+}
+
+.project-card p{
+color:#cccccc;
+font-size:16px;
+margin-bottom:20px;
+}
+
+.badge{
+font-size:15px;
+padding:10px 18px;
+border-radius:25px;
+}
+
+/* ================= RESUME ================= */
+
+.resume{
+background:#161b22;
+}
+
+.resume-box{
+background:#1f2937;
+padding:50px;
+border-radius:20px;
+text-align:center;
+max-width:700px;
+margin:auto;
+box-shadow:0 5px 20px rgba(0,0,0,.3);
+}
+
+.resume-icon{
+font-size:70px;
+color:#ffc107;
+margin-bottom:20px;
+}
+
+.resume-box h3{
+font-size:30px;
+margin-bottom:15px;
+}
+
+.resume-box p{
+font-size:18px;
+color:#cccccc;
+margin-bottom:30px;
+}
+
+/* ================= CONTACT ================= */
+
+.contact{
+background:#0d1117;
+}
+
+.contact-card{
+background:#1f2937;
+padding:40px;
+border-radius:20px;
+height:100%;
+}
+
+.contact-card h3{
+margin-bottom:20px;
+color:#ffc107;
+}
+
+.contact-card p{
+color:#cccccc;
+margin-bottom:20px;
+}
+
+.contact-card a{
+color:#ffc107;
+}
+
+.contact-form .form-control{
+background:#161b22;
+border:1px solid #333;
+color:#ffffff;
+padding:15px;
+}
+
+.contact-form .form-control:focus{
+border-color:#ffc107;
+box-shadow:none;
+background:#161b22;
+color:#ffffff;
+}
+
+.contact-form textarea{
+resize:none;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer{
+background:#111827;
+padding:50px 0 20px;
+text-align:center;
+}
+
+footer h3{
+color:#ffc107;
+margin-bottom:15px;
+}
+
+footer p{
+color:#cccccc;
+}
+
+.footer-icons{
+margin:25px 0;
+}
+
+.footer-icons a{
+font-size:28px;
+margin:0 15px;
+color:#ffffff;
+transition:.3s;
+}
+
+.footer-icons a:hover{
+color:#ffc107;
+}
+
+footer hr{
+border-color:#333;
+margin:30px 0;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:992px){
+
+.hero{
+text-align:center;
+}
+
+.hero-text{
+margin-bottom:50px;
+}
+
+.hero-text h1{
+font-size:45px;
+}
+
+.profile-img{
+width:280px;
+height:280px;
+}
+
+.about{
+text-align:center;
+}
+
+.line{
+margin:auto;
+margin-bottom:25px;
+}
+
+.resume-box{
+padding:30px;
+}
+
+.contact-card{
+margin-bottom:30px;
+}
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:36px;
+}
+
+.hero h2{
+font-size:22px;
+}
+
+.section-heading h2{
+font-size:32px;
+}
+
+.info-box,
+.skill-box,
+.project-card{
+margin-bottom:25px;
+}
+
+.profile-img{
+width:240px;
+height:240px;
+}
+
+}
